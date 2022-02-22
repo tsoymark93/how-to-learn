@@ -148,7 +148,6 @@
 
 .section-title {
   text-align: center;
-  justify-content: center;
   width: 60%;
   margin: 0 auto 20px;
   font-size: 60px;
@@ -159,7 +158,6 @@
 
 .section-subtitle {
   text-align: center;
-  justify-content: center;
   width: 60%;
   margin: 0 auto 0;
   font-size: 24px;
