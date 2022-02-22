@@ -269,6 +269,7 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  z-index: 0;
 }
 
 .section-title_theme_dark {
@@ -313,6 +314,7 @@
   width: 877px;
   height: 877px;
   margin: 0;
+  z-index: -1;
 }
 
 .footer {
