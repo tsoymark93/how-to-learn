@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Научиться учиться/How to Learn
 ## Проектная работа №2 от [Яндекс.Практикум](https://practicum.yandex.ru/)
 
@@ -24,3 +25,6 @@
   2. [Чеклист 2](https://code.s3.yandex.net/web-developer/checklists-pdf/new-program/checklist-2.pdf)
 
 Не говоря уже о знакомстве со многими внешними ресурсами, статьями, сайтами о веб-разработке и веб-вёрстке.
+=======
+# Learn How To Learn
+>>>>>>> 73b19b65148a2bff123cf7c16be3272458b446f0
