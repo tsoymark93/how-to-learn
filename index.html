@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css"/>
-  <link rel="stylesheet" href="./styles/style.css"/>
+  <link rel="stylesheet" href="./vendor/normalize.css"/>
+  <link rel="stylesheet" href="./pages/index.css"/>
   <title>Научиться учиться</title>
 </head>
 <body>
   <div class="page"> 
     <header class="header">
-      <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип Яндекс Практикум"/>
+      <img class="logo logo_place_header" src="./images/logo/logo_place_header.svg" alt="Логотип Яндекс Практикум"/>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href="#"> Узнать &rarr;</a></p>
-      <div class="header__square-pic"></div>
-      <img class="header__main-illustration" src="./images/header-image.png" alt="Картинка Опять Двойка"/>
+      <div class="header__square-pic rotation"></div>
+      <img class="header__main-illustration" src="./images/header/header-image.png" alt="Картинка Опять Двойка"/>
    </header>
 
     <main class="content"> 
@@ -34,27 +34,27 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-attention.png" alt="Карточка Внимание"/>
+            <img class="cards__image" src="./images/techniques/cards-attention.png" alt="Карточка Внимание"/>
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-recall.png" alt="Карточка Recall"/>
+            <img class="cards__image" src="./images/techniques/cards-recall.png" alt="Карточка Recall"/>
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-interliving.png" alt="Карточка Интерливинг"/>
+            <img class="cards__image" src="./images/techniques/cards-interliving.png" alt="Карточка Интерливинг"/>
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-question.png" alt="Карточка вопросы"/>
+            <img class="cards__image" src="./images/techniques/cards-question.png" alt="Карточка вопросы"/>
             <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
           </li>
           <li class="cards__item">
-            <img class="cards__image" src="./images_sprint-2/cards-competence.png" alt="Карточка компетентности"/>
+            <img class="cards__image" src="./images/techniques/cards-competence.png" alt="Карточка компетентности"/>
             <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
@@ -83,7 +83,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link" href="https://medium.com/bazanov-org/метод-обучения-фейнмана-6abe6915ef8a" target="_blank">Подробнее &rarr;</a>
       </section>
 
 
@@ -126,7 +126,22 @@
             <p class="table__text">Открытие условного рефлекса</p>
           </li>
         </ul>
-      </section>                 
+      </section>
+      
+      <section class="khan">
+        <div class="khan__container">
+          <p class="khan__author">Салман Хан</p>
+          <h2 class="khan__title">Весь мир — школа</h2>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </blockquote>
+          <h3 class="khan__quote-author">Джордж Лукас</h3>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="./images/khan/khan-book.jpg" alt="Обложка книги - Весь мир - школа, Салман Хан">
+            <a class="khan__buy-link" href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/?sh=0vgldAAAAA" target="_blank">Купить книгу &xrarr;</a>
+          </div>
+        </div>
+      </section>
 
 
       <section class="kaufman">
@@ -174,14 +189,25 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div> 
+        <div class="kaufman__triangle rotation"></div> 
+      </section>
+
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <nav class="resources__logo-zone">
+          <a href="https://arzamas.academy/" target="_blank"><img class="resources__logo" src="./images/resources/resources-arzamas.svg" alt="логотип Arzamas"/></a>
+          <a href="https://nplus1.ru/" target="_blank"><img class="resources__logo" src="./images/resources/resources-n1.svg" alt="логотип N1"/></a>
+          <a href="https://strelka.com/" target="_blank"><img class="resources__logo" src="./images/resources/resources-strelka.svg" alt="логотип Стрелка"/></a>
+          <a href="https://polka.academy/" target="_blank"><img class="resources__logo" src="./images/resources/resources-polka.svg" alt="логотип Полка"/></a>
+          </nav>
       </section>
     </main>
 
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип Яндекс Практикум"/>
+          <img class="logo logo_place_footer" src="./images/logo/logo_place_footer.svg" alt="Логотип Яндекс Практикум"/>
           <p class="footer__author"> &copy; 2022. Цой Марк</p>
         </div>
         <nav class="footer__column footer__column_content_info">
@@ -195,9 +221,9 @@
         <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
-            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Фейсбук"/>Facebook</a></li>
-            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте"/>ВКонтакте</a></li>
-            <li><a class="footer__column-link" href="#"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Инстаграм"/>Instagram</a></li>
+            <li><a class="footer__column-link" href="https://www.facebook.com/" target="_blank"><img class="footer__social-icon" src="./images/footer/facebook_color_white.svg" alt="Фейсбук"/>Facebook</a></li>
+            <li><a class="footer__column-link" href="https://vk.com/" target="_blank"><img class="footer__social-icon" src="./images/footer/vk_color_white.svg" alt="ВКонтакте"/>ВКонтакте</a></li>
+            <li><a class="footer__column-link" href="https://www.instagram.com/" target="_blank"><img class="footer__social-icon" src="./images/footer/instagram_color_white.svg" alt="Инстаграм"/>Instagram</a></li>
           </ul>
         </nav>
       </div>
